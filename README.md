@@ -41,43 +41,30 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/string-base-starts-with
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-startsWith = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-starts-with@umd/browser.js' )
-```
-The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base-starts-with/tags). For example,
-
-```javascript
-startsWith = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-starts-with@v0.1.0-umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var startsWith = require( 'path/to/vendor/umd/string-base-starts-with/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-base-starts-with@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.startsWith;
-})();
-</script>
+var startsWith = require( '@stdlib/string-base-starts-with' );
 ```
 
 #### startsWith( str, search, position )
@@ -142,13 +129,8 @@ var bool = startsWith( str, '', 0 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-base-starts-with@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var startsWith = require( '@stdlib/string-base-starts-with' );
 
 var str = 'Fair is foul, and foul is fair, hover through fog and filthy air';
 
@@ -163,11 +145,6 @@ bool = startsWith( str, 'foul', 8 );
 
 bool = startsWith( str, 'filthy', -10 );
 // returns true
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -221,8 +198,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/string-base-starts-with.svg
 [npm-url]: https://npmjs.org/package/@stdlib/string-base-starts-with
 
-[test-image]: https://github.com/stdlib-js/string-base-starts-with/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/string-base-starts-with/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/string-base-starts-with/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/string-base-starts-with/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/string-base-starts-with/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/string-base-starts-with?branch=main
