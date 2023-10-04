@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import startsWith from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-starts-with@esm/index.mjs';
+import startsWith from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-starts-with@v0.1.1-esm/index.mjs';
 ```
 
 #### startsWith( str, search, position )
@@ -119,7 +119,7 @@ var bool = startsWith( str, '', 0 );
 <body>
 <script type="module">
 
-import startsWith from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-starts-with@esm/index.mjs';
+import startsWith from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-starts-with@v0.1.1-esm/index.mjs';
 
 var str = 'Fair is foul, and foul is fair, hover through fog and filthy air';
 
