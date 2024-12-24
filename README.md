@@ -157,6 +157,12 @@ bool = startsWith( str, 'filthy', -10 );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/string-base/ends-with`][@stdlib/string/base/ends-with]</span><span class="delimiter">: </span><span class="description">test if a string ends with the characters of another string.</span>
+
 </section>
 
 <!-- /.related -->
@@ -234,6 +240,12 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/string-base-starts-with/main/LICENSE
 
 [mdn-string-startswith]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith
+
+<!-- <related-links> -->
+
+[@stdlib/string/base/ends-with]: https://github.com/stdlib-js/string-base-ends-with
+
+<!-- </related-links> -->
 
 </section>
 
